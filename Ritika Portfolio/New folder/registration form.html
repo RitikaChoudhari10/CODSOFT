@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+        Registration Form
+        </title>
+    </head>
+        <body>
+            <form>
+                <h1 style="background-color:powderblue;">Registration form</h1>
+                <input type="text" maxlength="10" minilength="3" placeholder="Enter Name" required>
+                <br> </br>
+                <input type="Number" maxlength="100" minilenth="80" placeholder="Enter Age" required>
+                <br> </br>
+                <input type= "Date" Enter DOB>
+                <br> </br>
+                <input type= "text" Enter city placeholder="Enter city" required>
+                <br> </br>
+                <input type= "text" Enter state placeholder="Enter state" required>
+                <br> </br>
+                <input type="mobile no." maxlength="100" minilenth="80" placeholder="Enter mobile no." required>
+                <br> </br>
+                <input type="Email" Enter Email placeholder="Enter Email" required>
+                <br> </br>
+                <input type= "PRN" Enter PRN placeholder="Enter PRN" required >
+                <br> </br>
+                <input type= "text" Enter College Name placeholder="Enter College Name" required>
+                <br> </br>
+                <input type= "Password" Enter Password placeholder="Enter Password"required>
+                <br> </br>
+                <input type= " Confirm Password" Enter Password placeholder="Confirm Password"required>
+                <br> </br>
+                <input type="radio" Name="Gender">Male
+                <input type="radio" Name="Gender">Female
+                <br> </br>
+                <p>
+                    Choose Your Alloted Course:
+                </p>
+                <label for="course">Course:</label>
+		<select id="course" name="course">
+			<option value="computer_science">Computer Science</option>
+			<option value="Electronnics and Tlecommunication">Electronnics and Telecommunication</option>
+			<option value="Electronics">Electronics</option>
+			<option value="Chemical">Chemical</option>
+			<option value="Mechanical">Mechanical</option>
+		</select><br><br>
+        <p>
+            Choose Your intrest:
+        </p>
+        <label for="interests">Interests:</label><br>
+        <input type="checkbox" id="sports" name="interests" value="sports">
+        <label for="sports">Sports</label><br>
+        <input type="checkbox" id="music" name="interests" value="music">
+        <label for="music">Music</label><br>
+        <input type="checkbox" id="Acting" name="interests" value="Acting">
+        <label for="Acting">Acting</label><br><br>
+
+       <!-- <p>Audio settings:</p>
+
+<div>
+  <input type="range" id="volume" name="volume"
+         min="0" max="11">
+  <label for="volume">Volume</label>
+</div>
+
+<div>
+  <input type="range" id="cowbell" name="cowbell" 
+         min="0" max="100" value="90" step="10">
+  <label for="cowbell">Cowbell</label>
+</div> -->
+
+<label for="appt">Choose a time for your meeting:</label>
+
+<input type="time" id="appt" name="appt"
+       min="09:00" max="18:00" required>
+
+<small>Office hours are 9am to 6pm</small><br><br>
+
+<label for="avatar">Choose a profile picture:</label>
+
+<input type="file"
+       id="avatar" name="avatar"
+       accept="image/png, image/jpeg"><br><br>
+
+       <label for="url">Enter an https:// URL: of your portfolio </label>
+
+<input type="url" name="url" id="url"
+       placeholder="https://example.com"
+       pattern="https://.*" size="30"
+       required><br><br>
+
+                
+                <button type="Submit">
+                    Register
+                    </button>
+                    <button type="Submit">
+                        Reset
+                        </button>
+                
+            </form>
+            
+        </body>
+    
+</html>
